@@ -27,6 +27,6 @@ public class HomepageTests extends BaseTest {
         Allure.addAttachment("Page Title", title);
         Thread.sleep(5000);
         // Change expected text to match the actual title on your page
-        Assert.assertTrue(title.contains("Practice Software Butt"), "Title does not match expected value");
+        Assert.assertTrue(title.contains("Practice Software BUTT"), "Title does not match expected value");
     }
 }
