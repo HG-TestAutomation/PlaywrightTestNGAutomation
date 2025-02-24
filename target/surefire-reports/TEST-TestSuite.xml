@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.902" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\test-classes;C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\classes;C:\Users\15713\.m2\repository\com\microsoft\playwright\playwright\1.50.0\playwright-1.50.0.jar;C:\Users\15713\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\15713\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\15713\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\15713\.m2\repository\com\microsoft\playwright\driver\1.50.0\driver-1.50.0.jar;C:\Users\15713\.m2\repository\com\microsoft\playwright\driver-bundle\1.50.0\driver-bundle-1.50.0.jar;C:\Users\15713\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\15713\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\15713\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\15713\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\GabrielAMendez\AppData\Local\Temp\surefire2736987917098525732\surefirebooter-20250221144338098_3.jar C:\Users\GabrielAMendez\AppData\Local\Temp\surefire2736987917098525732 2025-02-21T14-43-38_012-jvmRun1 surefire-20250221144338098_1tmp surefire_0-20250221144338098_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\test-classes;C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\classes;C:\Users\15713\.m2\repository\com\microsoft\playwright\playwright\1.50.0\playwright-1.50.0.jar;C:\Users\15713\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\15713\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\15713\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\15713\.m2\repository\com\microsoft\playwright\driver\1.50.0\driver-1.50.0.jar;C:\Users\15713\.m2\repository\com\microsoft\playwright\driver-bundle\1.50.0\driver-bundle-1.50.0.jar;C:\Users\15713\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\15713\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\15713\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\15713\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\15713\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\15713"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\GabrielAMendez\AppData\Local\Temp\surefire2736987917098525732\surefirebooter-20250221144338098_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="15713"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\15713\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GABRIE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.6\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\HP\HP One Agent;C:\Program Files\nodejs\;C:\allure\allure-2.32.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\GabrielAMendez\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\GabrielAMendez\AppData\Roaming\npm;C:\Users\GabrielAMendez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Maven\apache-maven-3.9.9\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="shouldShowThePageTitle" classname="tests.HomepageTests" time="7.638">
+    <failure message="Title does not match expected value expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Title does not match expected value expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.HomepageTests.shouldShowThePageTitle(HomepageTests.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[🚀 Initializing Playwright for browser: webkit
+🚀 Initializing Playwright for browser: chromium
+🚀 Initializing Playwright for browser: firefox
+✅ Playwright setup complete.
+✅ Playwright setup complete.
+✅ Playwright setup complete.
+🔎 Page Title: Practice Software Testing - Toolshop - v5.0
+🔎 Page Title: Practice Software Testing - Toolshop - v5.0
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldShowThePageTitle" classname="tests.HomepageTests" time="7.986">
+    <failure message="Title does not match expected value expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Title does not match expected value expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.HomepageTests.shouldShowThePageTitle(HomepageTests.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[🛑 Stopping tracing for failure; saving trace to: target/allure-results/shouldShowThePageTitle-trace.zip
+🔎 Page Title: Practice Software Testing - Toolshop - v5.0
+]]></system-out>
+  </testcase>
+  <testcase name="shouldShowThePageTitle" classname="tests.HomepageTests" time="12.769">
+    <failure message="Title does not match expected value expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Title does not match expected value expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.HomepageTests.shouldShowThePageTitle(HomepageTests.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[🛑 Stopping tracing for failure; saving trace to: target/allure-results/shouldShowThePageTitle-trace.zip
+✅ Trace attached to Allure.
+✅ Video file selected: target/playwright-videos/798566ac-8d13-4056-b16d-113d9b281070.webm
+✅ Video copied to: C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\allure-results\798566ac-8d13-4056-b16d-113d9b281070.webm
+✅ Video attached to Allure.
+🛑 Tearing down Playwright...
+Error during teardown: Error {
+  message='Must start tracing before stopping
+  name='Error
+  stack='Error: Must start tracing before stopping
+    at Tracing.stopChunk (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\trace\recorder\tracing.js:266:44)
+    at TracingDispatcher.tracingStopChunk (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\tracingDispatcher.js:54:28)
+    at TracingDispatcher._handleCommand (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+✅ Trace attached to Allure.
+✅ Video file selected: target/playwright-videos/798566ac-8d13-4056-b16d-113d9b281070.webm
+✅ Video copied to: C:\Users\15713\eclipse-workspace\playwright-in-java-sample-code\target\allure-results\798566ac-8d13-4056-b16d-113d9b281070.webm
+✅ Video attached to Allure.
+🛑 Tearing down Playwright...
+Error during teardown: Error {
+  message='Must start tracing before stopping
+  name='Error
+  stack='Error: Must start tracing before stopping
+    at Tracing.stopChunk (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\trace\recorder\tracing.js:266:44)
+    at TracingDispatcher.tracingStopChunk (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\tracingDispatcher.js:54:28)
+    at TracingDispatcher._handleCommand (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GABRIE~1\AppData\Local\Temp\playwright-java-5608919796511516049\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+]]></system-out>
+  </testcase>
+</testsuite>
